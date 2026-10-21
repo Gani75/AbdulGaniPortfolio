@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abdul Gani Gehlot – Business &amp; Data Analyst</title>
+<meta name="description" content="Portfolio of Abdul Gani Gehlot: Master of Business Analytics, SAP S/4HANA, profitability analysis, Power BI, SQL and Python.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F1F5F7;--ink:#10222B;--mute:#4B5F69;--card:#FFFFFF;--line:#D5DFE4;--acc:#0A7C7C;--on:#FFFFFF;--hi:#F2A93B;--glow:rgba(10,124,124,.14);color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B151A;--ink:#E7F0F2;--mute:#9DB3BB;--card:#122128;--line:#243940;--acc:#5ED3CA;--on:#0B151A;--glow:rgba(94,211,202,.12);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0B151A;--ink:#E7F0F2;--mute:#9DB3BB;--card:#122128;--line:#243940;--acc:#5ED3CA;--on:#0B151A;--glow:rgba(94,211,202,.12);color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+h1,h2,h3{font-family:"Bricolage Grotesque",Manrope,system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:var(--acc)}
+:focus-visible{outline:3px solid var(--hi);outline-offset:2px}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:none;margin:0;padding:0 8px}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:31;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.top .in{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;gap:10px;flex-wrap:wrap}
+header.top b{font-family:"Bricolage Grotesque",sans-serif;font-size:18px}
+nav{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+nav a{color:var(--mute);text-decoration:none;font-size:14px;font-weight:500;padding:5px 10px;border-radius:16px}
+nav a:hover{color:var(--ink);background:var(--glow)}
+#theme{background:none;border:1px solid var(--line);color:var(--ink);border-radius:16px;padding:4px 12px;font-size:13px}
+.hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(900px 400px at 85% 10%,rgba(242,169,59,.35),transparent 60%),radial-gradient(700px 500px at 0% 100%,rgba(94,211,202,.35),transparent 60%),linear-gradient(135deg,#0A2530,#0A4A52 60%,#0A6F70)}
+.hero .g{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;padding:64px 16px 56px}
+.kick{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:5px 12px;border-radius:20px}
+.hero h1{font-size:clamp(42px,8vw,84px);font-weight:800;letter-spacing:-.035em;margin:16px 0 6px}
+.hero h1 span{background:linear-gradient(90deg,#FFD38A,#F2A93B);-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font-family:"Bricolage Grotesque",sans-serif;font-size:clamp(18px,3vw,26px);font-weight:600;color:#BFEDEA;min-height:1.3em}
+.hero p.lead{font-size:clamp(16px,2.3vw,19px);max-width:560px;color:#D5E8EA;margin:14px 0 24px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:10px;font-weight:700;text-decoration:none;border:1.5px solid var(--acc);cursor:pointer;font:inherit;font-weight:700;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.p{background:var(--acc);color:var(--on)}
+.btn.s{color:var(--acc);background:transparent}
+.hero .btn.p{background:var(--hi);border-color:var(--hi);color:#1B1403}
+.hero .btn.s{color:#fff;border-color:rgba(255,255,255,.6)}
+[hidden]{display:none!important}
+.art{width:100%;max-width:340px;justify-self:center}
+.art svg{width:100%;height:auto;display:block}
+.art .b{fill:rgba(255,255,255,.88);transform-box:fill-box;transform-origin:bottom;animation:grow 1s cubic-bezier(.2,.8,.2,1) both}
+.art .b.h{fill:#F2A93B}
+@keyframes grow{from{transform:scaleY(0)}}
+.art .ln{fill:none;stroke:#5ED3CA;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:520;stroke-dashoffset:520;animation:draw 1.8s .5s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;padding:0 8px;margin-top:-30px;position:relative;z-index:2}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 8px 24px var(--glow)}
+.stat b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:34px;color:var(--acc);line-height:1}
+.stat span{font-size:14px;color:var(--mute)}
+section{padding:54px 0 10px}
+section h2{font-size:clamp(28px,5vw,40px);margin-bottom:8px}
+section h2::after{content:"";display:block;width:54px;height:5px;border-radius:3px;background:linear-gradient(90deg,var(--acc),var(--hi));margin-top:10px}
+.sub{color:var(--mute);margin:12px 0 22px;max-width:620px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.chip{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:20px;padding:7px 15px;font-size:14px;font-weight:500;transition:transform .15s}
+.chip:hover{transform:translateY(-2px);border-color:var(--acc)}
+.chip[aria-pressed="true"]{background:var(--acc);color:var(--on);border-color:var(--acc)}
+#status{min-height:26px;font-size:14px;color:var(--mute)}
+.tl{position:relative;padding-left:30px}
+.tl::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:3px;border-radius:2px;background:linear-gradient(var(--acc),var(--hi))}
+.item{position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:16px;transition:opacity .25s,border-color .25s,transform .25s}
+.tl .item::before{content:"";position:absolute;left:-30px;top:22px;width:17px;height:17px;border-radius:50%;background:var(--hi);border:4px solid var(--bg)}
+.item:hover{transform:translateX(3px)}
+.item.dim{opacity:.35}
+.item.hit{border-color:var(--hi);box-shadow:0 0 0 2px var(--hi)}
+.item summary{cursor:pointer;padding:16px 18px;list-style:none;display:flex;justify-content:space-between;gap:14px;align-items:baseline;flex-wrap:wrap}
+.item summary::-webkit-details-marker{display:none}
+.item summary::after{content:"+";font-size:24px;color:var(--acc);margin-left:auto;font-weight:700;line-height:1}
+.item[open] summary::after{content:"\2212"}
+.item h3{font-size:21px}
+.org{color:var(--mute);font-size:15px;margin-top:2px}
+.when{font-size:13px;color:var(--on);background:var(--acc);font-weight:700;white-space:nowrap;border-radius:14px;padding:3px 12px}
+.item ul{margin:0;padding:0 18px 16px 38px}
+.item li{margin-bottom:8px;max-width:76ch}
+.item li::marker{color:var(--hi)}
+.pj{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;align-items:start}
+.pj .item{margin:0;border-top:5px solid var(--acc)}
+.pj .item:nth-child(2){border-top-color:var(--hi)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;border-top:5px solid var(--acc);transition:transform .2s}
+.box:hover{transform:translateY(-4px)}
+.box:nth-child(even){border-top-color:var(--hi)}
+.box h3{font-size:18px;margin-bottom:6px}
+.box p{margin:0;color:var(--mute);font-size:15px}
+.cta{margin:54px 8px 0;border-radius:20px;padding:44px 24px;color:#fff;text-align:center;background:radial-gradient(500px 250px at 80% 0%,rgba(242,169,59,.4),transparent 60%),linear-gradient(135deg,#0A2530,#0A6F70)}
+.cta h2{font-size:clamp(30px,6vw,48px)}
+.cta h2::after{margin:12px auto 0}
+.cta p{font-size:19px;max-width:560px;margin:14px auto 22px;color:#D5E8EA}
+.cta .btns{justify-content:center}
+.cta .btn.p{background:var(--hi);border-color:var(--hi);color:#1B1403}
+.cta .btn.s{color:#fff;border-color:rgba(255,255,255,.6)}
+footer{padding:26px 12px 40px;color:var(--mute);font-size:14px;text-align:center}
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .6s,transform .6s}
+.js .rv.in{opacity:1;transform:none}
+@media (max-width:760px){.hero .g{grid-template-columns:1fr;padding-top:44px}.art{max-width:240px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}.art .ln{stroke-dashoffset:0}.js .rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="in"><b>Abdul Gani Gehlot</b>
+<nav aria-label="Sections"><a href="#tools">Tools</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a><button id="theme" type="button" aria-label="Switch colour theme">Theme</button></nav></div></header>
+
+<main>
+<div class="hero"><div class="g">
+<div>
+<span class="kick">Mumbai · Open to India &amp; Middle East</span>
+<h1>Abdul Gani <span>Gehlot</span></h1>
+<div class="role" id="role" aria-live="off">Business &amp; Data Analyst</div>
+<p class="lead">I turn ERP, project cost and sales pipeline data into reports that managers can act on. Master of Business Analytics, now working on an SAP S/4HANA rollout at ANJ Turnkey Projects.</p>
+<div class="btns"><a class="btn p" href="#experience">See my work</a><a class="btn s" href="#contact">Get in touch</a><button type="button" class="btn s dl" hidden>Download resume (PDF)</button></div>
+</div>
+<div class="art" aria-hidden="true"><svg viewBox="0 0 320 230"><g><rect class="b" x="14" y="150" width="30" height="70" rx="5" style="animation-delay:.05s"/><rect class="b" x="58" y="120" width="30" height="100" rx="5" style="animation-delay:.15s"/><rect class="b" x="102" y="135" width="30" height="85" rx="5" style="animation-delay:.25s"/><rect class="b" x="146" y="90" width="30" height="130" rx="5" style="animation-delay:.35s"/><rect class="b" x="190" y="105" width="30" height="115" rx="5" style="animation-delay:.45s"/><rect class="b h" x="234" y="55" width="30" height="165" rx="5" style="animation-delay:.55s"/><rect class="b" x="278" y="70" width="30" height="150" rx="5" style="animation-delay:.65s"/></g><polyline class="ln" points="29,128 73,98 117,112 161,62 205,78 249,28 293,44"/><line x1="8" y1="222" x2="312" y2="222" stroke="rgba(255,255,255,.5)" stroke-width="2"/></svg></div>
+</div></div>
+
+<div class="stats">
+<div class="stat rv"><b class="num" data-to="10000" data-suf="+">0</b><span>records cleaned &amp; reconciled</span></div>
+<div class="stat rv"><b class="num" data-to="10" data-suf="+">0</b><span>KPIs in Power BI dashboards</span></div>
+<div class="stat rv"><b class="num" data-to="8" data-suf="+">0</b><span>projects analysed</span></div>
+<div class="stat rv"><b class="num" data-to="15" data-suf="">0</b><span>ML models built &amp; compared</span></div>
+</div>
+</main>
+
+<div class="wrap">
+<section id="tools"><h2 class="rv">Pick a tool, see where I used it</h2>
+<p class="sub rv">Select a skill and the roles and projects below that used it will light up.</p>
+<div class="chips rv" id="chips" role="group" aria-label="Skills"></div>
+<div id="status" aria-live="polite"></div></section>
+
+<section id="experience"><h2 class="rv">Experience</h2>
+<p class="sub rv">Open any role for the detail.</p>
+<div class="tl">
+<details class="item rv" open data-t="sap excel sql profit">
+<summary><div><h3>Management Trainee (Analytics &amp; ERP)</h3><div class="org">ANJ Turnkey Projects, Mumbai</div></div><span class="when">Sep 2026 – Present</span></summary>
+<ul>
+<li>Supporting the organisation-wide implementation of SAP S/4HANA: data readiness, master data clean-up and mapping business data to ERP structures so reporting is accurate after go-live.</li>
+<li>Running project and cost profitability analysis, comparing budgeted and actual cost, revenue and margin to surface variances for management.</li>
+<li>Consolidating and validating cost and project data from several sources in Excel and SQL to give one reliable view for profit reporting.</li>
+<li>Turning finance and project-team needs into reporting requirements, linking business users with the ERP implementation team.</li>
+</ul></details>
+
+<details class="item rv" data-t="sql excel powerbi dash funnel">
+<summary><div><h3>Business Analyst Intern</h3><div class="org">Ernst &amp; Young (EY), GIFT City, Gujarat</div></div><span class="when">Apr 2025 – Jun 2025</span></summary>
+<ul>
+<li>Built a sales pursuit tracking dashboard so leadership could follow pursuit stages, spot pipeline drop-offs and their reasons, and drill into client-level contacts, stage and potential revenue.</li>
+<li>Analysed multi-stage pipeline data in SQL and Excel to find conversion trends, deal progression patterns and channel performance for forecasting.</li>
+<li>Created Power BI views with KPI scorecards, funnel analysis and geographic visuals for a single picture of pipeline performance across stages and locations.</li>
+<li>Gathered requirements in 6+ stakeholder sessions and turned them into structured data models and reports.</li>
+</ul></details>
+
+<details class="item rv" data-t="excel powerbi sql dash">
+<summary><div><h3>Junior Data Analyst</h3><div class="org">Ace Construction, Mumbai</div></div><span class="when">Aug 2023 – Jul 2024</span></summary>
+<ul>
+<li>Analysed 8+ projects in Excel to find trends and variances in progress, cost and resource use for monthly leadership reviews.</li>
+<li>Cleaned and consolidated 10,000+ records, validating and reconciling them to improve management reporting accuracy.</li>
+<li>Developed Power BI dashboards covering 10+ KPIs, cutting manual reporting effort by about 20%, and used SQL to find recurring delays for cross-functional teams.</li>
+</ul></details>
+</div></section>
+
+<section id="projects"><h2 class="rv">Projects</h2>
+<p class="sub rv">Analysis and modelling work from my studies.</p>
+<div class="pj">
+<details class="item rv" open data-t="eda">
+<summary><div><h3>Donor Engagement &amp; Programme Performance</h3><div class="org">World Vision Australia</div></div><span class="when">Jul – Oct 2025</span></summary>
+<ul><li>Applied exploratory and diagnostic analysis to donor engagement and programme performance data and turned the findings into clear business recommendations.</li></ul></details>
+<details class="item rv" open data-t="python ml">
+<summary><div><h3>Ames Housing Price Prediction</h3><div class="org">Academic project, MIS780, Deakin University</div></div><span class="when">2026</span></summary>
+<ul><li>Built and evaluated 15 neural network (MLP) configurations in Python on Google Colab, using MinMax scaling, early stopping and hyperparameter tuning.</li></ul></details>
+</div></section>
+
+<section><h2 class="rv">Skills</h2>
+<div class="grid" style="margin-top:22px">
+<div class="box rv"><h3>Analytics &amp; modelling</h3><p>Profitability analysis, data cleaning and validation, exploratory and diagnostic analysis, statistics, trend and variance analysis, predictive modelling, root cause analysis.</p></div>
+<div class="box rv"><h3>Reporting &amp; visualisation</h3><p>Dashboards, business intelligence, KPI scorecards, funnel analysis, executive reporting, data storytelling.</p></div>
+<div class="box rv"><h3>Tools</h3><p>SQL (PostgreSQL, MS SQL Server), Python (Pandas, Scikit-learn), R, Power BI, Tableau, advanced Excel (pivot tables, XLOOKUP, Power Query), SAP S/4HANA, HubSpot CRM.</p></div>
+<div class="box rv"><h3>Working with people</h3><p>Requirement gathering, ERP implementation support, cross-functional stakeholder management, turning insight into action.</p></div>
+</div></section>
+
+<section id="education"><h2 class="rv">Education &amp; certifications</h2>
+<div class="grid" style="margin-top:22px">
+<div class="box rv"><h3>Master of Business Analytics</h3><p>Deakin University, GIFT City Campus. 2026. Grade: 73%.</p></div>
+<div class="box rv"><h3>Bachelor of Commerce</h3><p>Malini Kishore Sanghvi College, Mumbai. 2023. CGPA: 8.31.</p></div>
+<div class="box rv"><h3>Certifications</h3><p>Power BI Essential Training, LinkedIn Learning (Jan 2025). SQL Essential Training, LinkedIn Learning (Aug 2024).</p></div>
+<div class="box rv"><h3>Leadership</h3><p>Organised a city-level football tournament in Mumbai (2023) with 12 teams and 100+ participants.</p></div>
+</div></section>
+</div>
+
+<div class="cta rv" id="contact">
+<h2>Let’s talk</h2>
+<p>I’m looking for analyst roles across India and the Middle East and can join immediately.</p>
+<div class="btns"><a class="btn p" href="mailto:ganigehlot75@gmail.com">Email me</a><a class="btn s" href="https://www.linkedin.com/in/abdul-gani-gehlot" target="_blank" rel="noopener">LinkedIn profile</a><button type="button" class="btn s dl" hidden>Download resume (PDF)</button></div>
+</div>
+<footer>© Abdul Gani Gehlot · Mumbai, India</footer>
+
+<script>
+(function(){
+var root=document.documentElement;
+root.classList.add("js");
+var rm=matchMedia("(prefers-reduced-motion: reduce)").matches;
+/* skill lens */
+var skills=[["sql","SQL"],["powerbi","Power BI"],["python","Python"],["excel","Advanced Excel"],["sap","SAP S/4HANA"],["profit","Profitability analysis"],["dash","Dashboards"],["funnel","Funnel analysis"],["ml","Machine learning"],["eda","Exploratory analysis"]];
+var chips=document.getElementById("chips"),status=document.getElementById("status"),items=[].slice.call(document.querySelectorAll(".item")),cur=null;
+skills.forEach(function(s){var b=document.createElement("button");b.type="button";b.className="chip";b.textContent=s[1];b.setAttribute("aria-pressed","false");b.dataset.k=s[0];
+b.onclick=function(){cur=(cur===s[0])?null:s[0];apply(s[1]);};chips.appendChild(b);});
+function apply(label){var n=0;
+[].forEach.call(chips.children,function(c){c.setAttribute("aria-pressed",c.dataset.k===cur?"true":"false");});
+items.forEach(function(it){var m=cur&&(" "+it.dataset.t+" ").indexOf(" "+cur+" ")>-1;it.classList.toggle("hit",!!m);it.classList.toggle("dim",!!cur&&!m);if(m){it.open=true;n++;}});
+status.textContent=cur?(label+": used in "+n+(n===1?" role or project.":" roles and projects.")):"";}
+/* reveal + counters */
+var nums=[].slice.call(document.querySelectorAll(".num"));
+function count(el){var to=+el.dataset.to,suf=el.dataset.suf||"";if(rm){el.textContent=to.toLocaleString("en-US")+suf;return;}
+var t0=null;function f(t){if(!t0)t0=t;var p=Math.min((t-t0)/1400,1),e=1-Math.pow(1-p,3);el.textContent=Math.round(to*e).toLocaleString("en-US")+(p===1?suf:"");if(p<1)requestAnimationFrame(f);}requestAnimationFrame(f);}
+var rv=[].slice.call(document.querySelectorAll(".rv"));
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");var n=e.target.querySelector(".num");if(n)count(n);io.unobserve(e.target);}});},{threshold:.15});rv.forEach(function(el){io.observe(el);});}
+else{rv.forEach(function(el){el.classList.add("in");});nums.forEach(count);}
+/* rotating role line */
+var roles=["Business & Data Analyst","SAP S/4HANA Implementation","Profitability Analysis","Power BI & SQL Reporting"],ri=0,re=document.getElementById("role");
+if(!rm){setInterval(function(){ri=(ri+1)%roles.length;re.style.opacity=0;setTimeout(function(){re.textContent=roles[ri];re.style.opacity=1;},250);},2600);re.style.transition="opacity .25s";}
+/* theme */
+document.getElementById("theme").onclick=function(){var dark=root.getAttribute("data-theme")==="dark"||(!root.getAttribute("data-theme")&&matchMedia("(prefers-color-scheme: dark)").matches);root.setAttribute("data-theme",dark?"light":"dark");};
+/* resume download */
+var RB64="JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtT2JsaXF1ZSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjMgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyA5IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yIChBYmR1bCBHYW5pIEdlaGxvdCkgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTAxOTA4MTczOCswMCcwMCcpIC9DcmVhdG9yIChcKHVuc3BlY2lmaWVkXCkpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTAxOTA4MTczOCswMCcwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0IChcKHVuc3BlY2lmaWVkXCkpIC9UaXRsZSAoQWJkdWwgR2FuaSBHZWhsb3QgLSBSZXN1bWUpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKOCAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDUgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDQwOTEKPj4Kc3RyZWFtCkdhdWBWZmxHaCwoNEZNMWkyJ0F0NnBlQzpyQTlENTMoZF5jRCguWCg8SVRLajg0JihVZmoqbFdXYl09c21LTCxTWkRCKWVhIWs2UCFhWmwlamRaX0Q3IlpSZXJYUUFpXU5wW1ptclk5Q0FAV25xNzRrZzhPaWQxNWhfNFdlOSUwXHVCNTg5JjRibWQsImgyPE45cUtWXDA0NGRuKTpLa1MvVz08Umg0cFIkNlEzUTYwSSswcjpzWD82XDd1bkVQTDguNjpHWyNMXHNTWWVhbnNjUW5lRz0sN0AqcnRfdT4/dGImP2RVY1EoUTJOcGYpQU5eNThLO15VYilbUmYjTEJtQSZPJTUuLVgtdFVoQj9RXS1BVGM4X3JxQmwjblhCQCsqSGtSZltDXUFhcEFLbWo3WkByc1NMZDFLLWA7JyJiTHU1RytZYCs8XXErdEFTOjhbY0FWXkExaFBNKEhCcDhJNSM6SkZsZklRXmlMP19hS2VYXG1GPEE6QVtzRFIqQTwwLyNkTlpNOE5qNS5eVHMyWTc9IT9vZFRNYWpfUFpFNjNtWEtXREVxWjJDZ1BbVmYjTlpZZklNT2k6Z19fJWBrZTQ/M2tvVjZLWlNZKmhSdWUnZjxzSDpMYFU9XkxUVixWL0dvYlhLYklTO15ubW0wWEhkQT1eITBBLUY+MyVgcF9oZnBaaSk+YGBPOmkpMz48NydSbVMzMTE7QFIuKWFYY05LOjI6Li5jbmxKV1FpUV0kNVZkT1xPWEsmKTVSJ1k+OEElRio4IUFVOUIzOTlcJ0tuP0oxWDM9L2opODxMLzo/Uj1Caydgc3RNSUJqXjdhbDg8UUlXUjxVSVJWQWFiaTUtXC82aF1IZnA1SllMM1pbLz9rKHRhby0rRkdNTS8yNm1xNFFrUltLKiwjIzpobkNVM19QMlgkUHRGaU9aKFE8KTdTYD9wRUhBPWhRVz8+bF9EWkdcSiJXUVo/OVtnWmpZcDNtPG03LF5vTjddPVpGOzJFUW4zMWw/cjgyOzZqLzssSVRhdUpPRyoyOk02cjlobHBib2ZRbWkqMVpWMF5yVUkpN0U3KypwJXBtKixdLydoXWBXKDc1NHIiWk09ODJKTFRiblJPMjAnRVllMW1SIzcrcXBdM3VRT3IpWWlpOkpMVTZwYTNdTGA/RTsuOVYkNjs1RVFGaSgmO1s5SGMoQUI+LXMzJjksX2Noa2VEaT02KUxQOkYrTTpPZC80MF9CZFZMPGpxISRfOjZfKEpmckZYJmBpXlZtSV47JUhQJCkzKCJxV2pXc01wVlNCYmApLEt0LU5XZFtjKGdFdElRV1pxKDAyUTxUN0JKXVlcPlhKXWYnPylxbjNrIj83NlZWNidwRV9naVlbTzZXXldJRjpQSklRbkdAT0woXVFDX2A+Yyc3Tjo1aGpFUDVOVEwmXiNuS1RNSidMYGVsJXJfM242PGVoSy5HI1dmRkokRmdrNFopQmg+R0RyQT9FdVsxUihjJVlva0Rjc1tgWGctak9xX0hOYi5QRltMYT1mPVcjRk5WXD0xb2U5RksjNSZccV5tJSQ6bDFPZD8na0lqSFpDXmNlZkpTIjAlUipbTjhUYS5VXF1lJSEzOFhZRHNJQTRmc0c7U2tNXCZtQUJhP1ssQzJhOHJEN2VaKDM/QDElX0ImSEhOcUs1IUk4R2FkVDtoR0s8QmpNPDEvYkokWjUuLFRkZVVmWWM8aSVqVldBJC4tQCRbSF4tWldqIyxeQitZJThiVVA6Iy83PCMhVl9kMmhDYFxNIyNWb08/NDgoWDB0WSpycGg9JnFvMzk+QypLSnBTLTg8NTlQc25BTSIhWTBmLFpDNTU0QjQ7WVMpMEpqTVxOa3JsTU4/cVtkLWxKRmUxdUA7NzxLZkVzVj9WU1IuSiEmazIta0ErTDpuXVBAJHAzRmcjNEMocEZRKD4hOE1GcGcxPiE/I05BU2UmWFQ8UD0+RltbWHFlUChAdS00XU5lTj08dGRdVEViPERcJFRHSSMmNCpfOCMpW0siJ09GP084N2pPM2s2KSdOXEpjUFdGbCslYlxwXSQyLlpWViFGWlBTW1QoPC04amhDb2lrRmc+YChwI0ZaMFBgYUxQOkgxSXItI1QpLXFXT2d1cFFPQEZrSTojNmZkc0grQ1VzQEs8QVUnV2EqM0JvQDhYKDxcUDZpRm1cXFVdalBOVGMiPihlQTRoTUs2OT1KcEw3TixmNkRcSiU/NSxKX3JAVj0sIj4wWDlzJClmZztfMUBtXmdnSEdrc1UiZEkuVVA4KUAnTDJnJVcmXmxwNidZUWQ+bU9YKjwlUDA5ZEFoTUk/T2NQKypuNCVYIUttWlFvbWhALTstKTlPb0hBSDJnPEQ6OHEjWWtTXk88ImNOZEUsQWFIYXE3WitdaU5vSk9lTFJXWFczRGszLzxSMUdDcVk8JnRfJC0vOzUnO2YjXVV0Ulc4US5aQCYtRmc7QCtqZSE+Uk1SXUdcTWlvKiFlJktuIUZdTk5aU1VwPkUiZDooSXIwaU5mRSVxI2RzXVJXVW8kaUNkKSE3Xk9yIl9VWjJqLHRvUl1FSyUkWD5fOkFhQ1ojcjFpY2dqUSRZVjAwPGIzRVtMTEVHN05bMTctcywjTD1HaFNIXi1gL14qSi4/OTQ5aGkiYFZLUWhTRFBvNl4uT29cMS9adCZzJyclV2xEPFdwI1R1YF9VImxYVDExJCNxKnE1Q1xMYk9GNC8pZ2hdLGJ1M2YoJlgqLWIjWEdRI0oiajFBJ2hTJldxZDFLbSpHOShobSUjNGkwKkg4XG5OSSJhYGZpMSUxQ0lpNFY9TUlDKWExN2c2IScqQTBQOC8jSG0mLWtdIURgJ0lHJmByZE9fLiIsUDhgJDlTNC4qZj1QKGU1TW9zWTpqKVgicDtASWRibFpXPEdEVHBdbiF1bUIyWlN0WT42S3AsLzYxLl4wP2FUIj5iRVZzJ2gpMF46bVF0YWdxW1tcTVtvXkFsdSdMPE44NklaMkFkRDxgcW9ANU1DVG5aYDB1aUBoX2o3Ml9AXCZSP0w2ZUUjRURocUZPayZHcHMpIm5wcj5aTjwiYCMhPjEtQ1ReaSluYjtVV2E6dSpKJy1ubGRFNCRpVkVPWzJANk1bUWZET2gtWj9fQ1M5NmFfS0IkVVdFPCI9MmxxM1spNk5BZV1ULFBXJnUjMiwpU3BZZ3I3RylLMU5mMTVraSpAOD4tMiMmT28vIlEoXmY2aTdzTDBvUENPMyheOFVzJCwmc204LDBeXGt1PiFdMGohU2dbUGMqJmFbM3JNWEJGKWVfUlwzdGYwRz5bW1Y4Z0IlW2tQR0o2b1E5Si5pMjwvM2cvNiJGdTFHSjpYZChkT1VZMztIQDJ0amExWjFZW09JcVgoPWglXy4/TkZqdC1nKTk4OVskSjJRSis6cDlcVyk7O0c8cU1fM1tYLkE5MlJVVURYVGNiKTBXOWUmJC80YW5ybkJuQ0Vbb14nJEoxYUpSLChQI09MSHB0aDhdSz82ZTZvZEE8R2IvN0pnRSdRb3RiUUlccTwndSdiay5YIk5sS2c4WT84UCMmZEc8bVtiS0s6SUVwMVJjakw0Z0ZKKlxeZ2lwJ0VpPTk5WHFJQzE8Wmw9ZFVnLmhvbz1AJDdFKl1PIzUwVVBFSzs3P1w+XFliYHA3RFQjQkMhalAnaCwmYiFja0FZaTcpbUhhWW03RUE3Py9TZm1gZylhZWlNKF5LVW9jMjNGXTwuWUE9XlpPVzZkO24lOS41IylbdSstdWpjZmJcPHVqJ0ZvZDNORGhiVkkiQ1k1S29dS0FRSGFZaXIkbC9sZzM8bFMmOUhYYHJKazphKlRhPGhVP0M+XkdhS0IoWVZdZUE+MkJUZ1hiNyxnc1UtXWw+IldeZVklbTJYNV5bcUB1UDRrOSFNLU9lJFhiKEJjKiJwNG9uWm8kNTJzaCVFI1NOVG86OzInbT1XMkRPXHBtS2YiYC0hNkZGOjAlXnE/akYxI0FhZm5bVV8lKFUuOCE4OltMYkxCVG1JV0xPMSU2MTMxQExAOVZHK0QwLU5ObkNiXHBuNENGaUZGTVEzbGhuLjxnWFBfPnUxUVtIMi1UbUYkaXMiaCNoUFJqK2olJGByVUtBYUtBIV5QaicrOVNzQE1OK2JQTWBgWidubVBcI0w5JWIiTHNrPU4xaSZJUiVKZyJwTDA9MixeOExNcUA1Oy4xWiw6JmcwVVZCPylMW0EmSmZ0JDM6Pl1hdSIvcUUuPyRsKjdDdVBLQWZQV147R0Yib1kvbDoqWTU9bCY3cWZnX0YrSlRSTCNYbS5OJ0ZiLylTJVgrX0ZnVFYvOmBRPSYlKyVKUHMqMTs3cFlaQSg9dT9gR2Q/U2VsVigmQCkmQF0hOGgoR1ssZ0FTMUNwTDIhbkVlL0pJNWFCIWNRRGJgS2JzJk1nbTs2T2A5I04scnAyLUlHMlFJZVlPLXBRNk5sLlV1VF5JK2BdX2cjOi9uajxhUGtDZSc3L20nTzxSWjQ/QCYhPFg/NHRqcCMzc25YSj8vT21eaCdBTmZAJ3JiUFZXbEdqQVJWKj90aXNVMzhSKVBTKktMSEBoSC9DJXNhdT1mW1M6aWNTaUBnaiNzMCsjQSIwMFc4YyNuVW5ISV0uI1hxJVg+Wm1LQCJWP0NETkRuZU50YEg+bjRLZSpYQVUubC1QbWM6Ny0mcTlmUnFLLFNCbC51IS0jLjhnWWkqN1Asb209Uy5XQWFaMmNWYEhVKHJgNz08Q3BKLlExKUBodFhDQTByckJmcCxVV0E/dUIhOkRsLFZhLFk9P2BsQWchKk86MEtwXHNjPTdAZ0A2UzMhJjotYDxUVlVaTS49aVdzVDZLNm00Tl46KyktQk1sdEEkQTwkJTI8bTo6P0ZWcXBbWCtOaTV0PURySyxCMVREXTM4IWJkTTVSP2Jebig9OWpmIz9ELVZxSWBFNTdeW2hzcmI5Mz0pLSpJJ2VfJ21kJkhLS1MjQSpjN0pBcGJPU0RvKUMnKGVKXGRRa0dPOzkxW0BVNk8hOTZuZFVDdVo9KjNLRiI/PDAuRT9uIlAjPUxNJnEmI0JIbzwpRiRGY04kK1w3IWVTYXRWRjRURTIjWSFZP0ZlK1JcOGYtL0xlSTRsR2skb09WXS9aOCc3Lk5UQUAuVj1tbGwvWlVMSVFCXlVLZjM9Uk48UzU8JEIwXmZkbG08TXFlbVIqRi9oQ20lY14tdVdbRSd1WzFNSCYuVjtaRTosRF5PaVxXIWczbWg5K0hzaXNrZ2wmNygyZ0Q4LTlEM2BoNyFBU2ZQSC5qaGVoTkBFL1NxK0VqNWYmQzhURFdsSS5PL1hATz1cIVY6cUkkPVdRZl4uMUZhUTtgcDU2bkdqMjRlYEFAOUhmXElrQCZGXGtaRGQjZEAlak1iYzRxZGRNWyxjMV1fRl4+QSVBbH4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMTIgMDAwMDAgbiAKMDAwMDAwMDIxOSAwMDAwMCBuIAowMDAwMDAwMzMxIDAwMDAwIG4gCjAwMDAwMDA0NDYgMDAwMDAgbiAKMDAwMDAwMDY0OSAwMDAwMCBuIAowMDAwMDAwNzE3IDAwMDAwIG4gCjAwMDAwMDEwMTQgMDAwMDAgbiAKMDAwMDAwMTA3MyAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzwzMzk0NDlhNTM5OWEzMTY3YzZlNzU1ZTc5MjUwNDlhNz48MzM5NDQ5YTUzOTlhMzE2N2M2ZTc1NWU3OTI1MDQ5YTc+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDcgMCBSCi9Sb290IDYgMCBSCi9TaXplIDEwCj4+CnN0YXJ0eHJlZgo1MjU1CiUlRU9GCg==";
+var dls=[].slice.call(document.querySelectorAll(".dl"));
+function pdfBlob(){var bin=atob(RB64),bytes=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);return new Blob([bytes],{type:"application/pdf"});}
+dls.forEach(function(button){button.hidden=false;button.onclick=function(){var url=URL.createObjectURL(pdfBlob()),link=document.createElement("a");link.href=url;link.download="Abdul_Gani_Gehlot_Resume.pdf";document.body.appendChild(link);link.click();link.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);};});
+})();
+</script>
+</body>
+</html>
